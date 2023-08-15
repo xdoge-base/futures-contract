@@ -1,0 +1,16 @@
+# Ignore everything recursively
+*
+
+# But not the .ts files
+!*.ts
+
+# Check subdirectories too
+!*/
+
+artifacts
+
+cache
+
+node_modules
+
+typechain-types
